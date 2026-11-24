@@ -86,7 +86,7 @@ export default function App() {
                 <div className="aspect-[4/3] flex items-center justify-center overflow-hidden">
                   {!logoFailed ? (
                     <img
-                      src="/assets/aistudio/image_df8c718e.png"
+                      src="/assets/aistudio/Priyontor Heritage Gold Logo.png"
                       alt="Priyontor — Where Heritage Meets Heart, Rooted in Tradition, Made for You"
                       referrerPolicy="no-referrer"
                       onError={() => setLogoFailed(true)}
@@ -153,17 +153,7 @@ export default function App() {
             <span>© 2026 Priyontor. All rights reserved.</span>
           </div>
 
-          <div>
-            <a
-              href="https://softtechdigimedia.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 font-medium text-[#2C1610] hover:text-[#8A612B] underline underline-offset-4 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C1610]"
-            >
-        
-              <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-            </a>
-          </div>
+       
         </div>
       </footer>
     </div>
