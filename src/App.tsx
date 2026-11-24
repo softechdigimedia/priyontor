@@ -86,7 +86,7 @@ export default function App() {
                 <div className="aspect-[4/3] flex items-center justify-center overflow-hidden">
                   {!logoFailed ? (
                     <img
-                      src="/assets/aistudio/image (1)"
+                      src="/assets/aistudio/image (1).png"
                       alt="Priyontor — Redefining Indian Heritage Culture to the World through Fashion"
                       referrerPolicy="no-referrer"
                       onError={() => setLogoFailed(true)}
