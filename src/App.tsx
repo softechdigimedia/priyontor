@@ -86,8 +86,8 @@ export default function App() {
                 <div className="aspect-[4/3] flex items-center justify-center overflow-hidden">
                   {!logoFailed ? (
                     <img
-                      src="/assets/aistudio/Priyontor Heritage Gold Logo.png"
-                      alt="Priyontor — Where Heritage Meets Heart, Rooted in Tradition, Made for You"
+                      src="/assets/aistudio/image (1)"
+                      alt="Priyontor — Redefining Indian Heritage Culture to the World through Fashion"
                       referrerPolicy="no-referrer"
                       onError={() => setLogoFailed(true)}
                       className="w-full h-full object-contain mix-blend-multiply select-none"
@@ -104,9 +104,9 @@ export default function App() {
                   )}
                 </div>
                 <div className="mt-6 pt-4 border-t border-[#2C1610]/10 flex flex-wrap items-center justify-between gap-2 text-xs text-[#6E4F3D]">
-                  <span>Where Heritage Meets Heart</span>
+                  <span> Redefining Indian Heritage Culture </span>
                   <span aria-hidden="true">·</span>
-                  <span>Rooted in Tradition, Made for You</span>
+                  <span>to the World through Fashion</span>
                 </div>
               </div>
             </div>
