@@ -160,7 +160,7 @@ export default function App() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 font-medium text-[#2C1610] hover:text-[#8A612B] underline underline-offset-4 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C1610]"
             >
-              <span>Designed and developed by Soft Tech Digi Media</span>
+        
               <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
             </a>
           </div>
